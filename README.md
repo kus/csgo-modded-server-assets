@@ -16,23 +16,23 @@ curl --silent --output "automate.sh" "https://raw.githubusercontent.com/kus/csgo
 
 ### Downloading maps
 
-Search [Steam Workshop](https://steamcommunity.com/app/730/workshop/) for a map
-Copy the URL of the map you want to add i.e. `https://steamcommunity.com/sharedfiles/filedetails/?id=125995702`
-Paste it in [Steam Workshop Downloader](http://steamworkshop.download/)
-Click **Download**
-Click **Download: aim_redline** [Counter-Strike: Global Offensive]
-Rename `.bsp` to `.zip` on the file
-Extract it and you should have a new `.bsp` file, this is the map file
+- Search [Steam Workshop](https://steamcommunity.com/app/730/workshop/) for a map
+- Copy the URL of the map you want to add i.e. `https://steamcommunity.com/sharedfiles/filedetails/?id=125995702`
+- Paste it in [Steam Workshop Downloader](http://steamworkshop.download/)
+- Click **Download**
+- Click **Download: aim_redline** [Counter-Strike: Global Offensive]
+- Rename `.bsp` to `.zip` on the file
+- Extract it and you should have a new `.bsp` file, this is the map file
 
 ### Adding to the repo
 
-Clone this repo
-Add your map(s) to the `csgo/maps` folder
-Run `./compress.sh` in the root folder
-_The map **MUST** be compressed (.bz2) and *CANNOT* be 100MB or larger_
-Commit
-Push
-Do a pull request
+- Clone this repo
+- Add your map(s) to the `csgo/maps` folder
+- Run `./compress.sh` in the root folder
+- _The map **MUST** be compressed (.bz2) and *CANNOT* be 100MB or larger_
+- Commit
+- Push
+- Do a pull request
 
 ## License
 
