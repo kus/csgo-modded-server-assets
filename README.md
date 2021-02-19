@@ -6,11 +6,21 @@ This repo houses the maps and acts as a FastDL for [CS:GO Modded Server](https:/
 
 ## Install assets on my server
 
+### Linux
+
 ```
 # cd to "csgo" parent directory so you are in the same folder as srcds
 cd /home/steam/csgo/
 curl --silent --output "automate.sh" "https://raw.githubusercontent.com/kus/csgo-modded-server-assets/master/automate.sh" && chmod +x automate.sh && bash automate.sh
 ```
+
+### Windows
+
+Install [7-Zip](https://www.7-zip.org/download.html)
+
+Download [this repo](https://github.com/kus/csgo-modded-server-assets/archive/master.zip) and extract it
+
+Run `decompress.bat` and cut the folders in csgo/ (maps, sounds etc) to your server csgo/csgo/ folder and overwrite.
 
 ## Contributing
 
