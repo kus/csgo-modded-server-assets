@@ -8,10 +8,13 @@ then
 	exit 1
 fi
 
-curl https://github.com/kus/csgo-modded-server-assets/archive/master.zip -s -L -o master.zip
-unzip -o -qq master.zip
-cd csgo-modded-server-assets-master
+# Github is sending corrupt zips
+# curl https://github.com/kus/csgo-modded-server-assets/archive/master.zip -s -L -o master.zip
+# unzip -o -qq master.zip
+
+git clone https://github.com/kus/csgo-modded-server-assets.git
+cd csgo-modded-server-assets
 chmod +x copy.sh
 ./copy.sh
 cd ../
-rm -r csgo-modded-server-assets-master master.zip
+rm -r csgo-modded-server-assets
